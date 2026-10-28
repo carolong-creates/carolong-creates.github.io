@@ -978,3 +978,29 @@ section .section-heading {
     color: #1F2A44 !important;
     -webkit-text-stroke: 1.5px #1F2A44;
 }
+
+/* Navigation title */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #EBDDE3 !important;
+    -webkit-text-stroke: 0 !important;
+    text-shadow: none !important;
+}
+
+/* Top-right navigation links */
+.navbar-default .nav li a {
+    color: #EBDDE3 !important;
+}
+
+/* Navigation hover */
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #FFFFFF !important;
+}
+
+/* Main banner text */
+header .intro-text .intro-lead-in,
+header .intro-text .intro-heading {
+    color: #EBDDE3 !important;
+}
