@@ -865,3 +865,25 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+/* Fix welcome banner image */
+header {
+    background-image: url('{{ site.baseurl }}/img/custom-header.jpg') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+/* Reduce space between About Me and Services */
+#about {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#services {
+    padding-top: 20px !important;
+    margin-top: 0 !important;
+}
+
+/* Reduce space below About Me text */
+#about .row {
+    margin-bottom: 0 !important;
+}
