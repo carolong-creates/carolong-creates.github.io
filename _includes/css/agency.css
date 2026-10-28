@@ -886,3 +886,18 @@ header {
     background-position: center center !important;
     background-size: cover !important;
 }
+/* Dusty pink page background */
+body,
+section,
+#about,
+#services,
+#portfolio,
+.bg-light-gray {
+    background-color: #dda0c2 !important;
+}
+
+/* Keep contact section navy */
+#contact,
+section#contact {
+    background-color: #1F2A44 !important;
+}
