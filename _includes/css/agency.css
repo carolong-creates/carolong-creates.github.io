@@ -929,3 +929,15 @@ section#contact {
     align-items: center;
     justify-content: center;
 }
+/* Tell Me More button */
+header .btn-xl {
+    background-color: #a584c9 !important;
+    border-color: #a584c9 !important;
+}
+
+/* Button hover color */
+header .btn-xl:hover,
+header .btn-xl:focus {
+    background-color: #9270b7 !important;
+    border-color: #9270b7 !important;
+}
