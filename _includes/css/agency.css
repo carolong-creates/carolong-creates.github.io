@@ -941,3 +941,19 @@ header .btn-xl:focus {
     background-color: #9270b7 !important;
     border-color: #9270b7 !important;
 }
+
+/* Top-left website title */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #E89BB8 !important;
+}
+
+/* Section headings and descriptions */
+section h2.section-heading,
+section h3.section-subheading,
+section p,
+section .text-muted,
+section .section-heading {
+    color: #1F2A44 !important;
+}
