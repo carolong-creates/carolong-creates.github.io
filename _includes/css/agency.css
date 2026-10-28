@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/custom-header.jpg?=v3);
+    background-image: url('{{ site.baseurl }}/img/custom-header.jpg?v=4');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -864,13 +864,6 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
-}
-/* Fix welcome banner image */
-header {
-    background-image: url('{{ site.baseurl }}/img/custom-header.jpg?v=2') !important;
-    background-size: cover !important;
-    background-position: center center !important;
-}
 
 /* Reduce space between About Me and Services */
 #about {
