@@ -1090,3 +1090,22 @@ header .intro-text .intro-heading {
 #services img[src*="handshake-512.png"] {
     margin-top: 35px !important;
 }
+
+/* Pink border around the lower website sections */
+#about,
+#services,
+#portfolio,
+#contact {
+    border-left: 2px solid #E8A8C6;
+    border-right: 2px solid #E8A8C6;
+}
+
+/* Top edge begins at About Me */
+#about {
+    border-top: 2px solid #E8A8C6;
+}
+
+/* Bottom edge ends at Contact */
+#contact {
+    border-bottom: 2px solid #E8A8C6;
+}
