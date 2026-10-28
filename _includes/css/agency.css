@@ -1184,3 +1184,9 @@ footer {
         margin-top: 15px;
     }
 }
+
+/* Match the background outside and inside the pink border */
+html,
+body {
+    background-color: #EBDDE3 !important;
+}
