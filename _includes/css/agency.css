@@ -1004,3 +1004,33 @@ header .intro-text .intro-lead-in,
 header .intro-text .intro-heading {
     color: #EBDDE3 !important;
 }
+
+/* Navigation title: navy */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #1F2A44 !important;
+    -webkit-text-stroke: 0 !important;
+    text-shadow: none !important;
+}
+
+/* Navigation links: navy */
+.navbar-default .nav li a {
+    color: #1F2A44 !important;
+}
+
+/* Baby pink hover and active highlights */
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #1F2A44 !important;
+    background-color: #F4B6D2 !important;
+}
+
+/* Baby pink hover for website title */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #F4B6D2 !important;
+}
