@@ -1034,3 +1034,21 @@ header .intro-text .intro-heading {
 .navbar-default .navbar-brand:focus {
     color: #F4B6D2 !important;
 }
+
+/* Make About Me description narrower */
+#about .section-subheading {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+/* Narrower About Me text */
+#about h3.section-subheading {
+    max-width: 450px !important;
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 1.9 !important;
+    text-align: center !important;
+}
