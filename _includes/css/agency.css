@@ -1224,3 +1224,27 @@ header .intro-text .intro-heading {
     background-color: #E8A8C6 !important;
     color: #1F2A44 !important;
 }
+
+/* Lighter pink portfolio buttons on hover */
+#portfolio .portfolio-link:hover .portfolio-box,
+#portfolio .portfolio-link:focus .portfolio-box {
+    background-color: #F4C7DB !important;
+}
+
+/* Smooth color transition */
+#portfolio .portfolio-box {
+    transition: background-color 0.3s ease;
+}
+
+/* Portfolio button colors */
+#portfolio .portfolio-box {
+    background-color: #F8C8DC !important;
+    color: #1F2A44 !important;
+    transition: background-color 0.3s ease;
+}
+
+/* Light purple hover */
+#portfolio .portfolio-link:hover .portfolio-box,
+#portfolio .portfolio-link:focus .portfolio-box {
+    background-color: #DCC6F2 !important;
+}
