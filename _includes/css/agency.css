@@ -1052,3 +1052,28 @@ header .intro-text .intro-heading {
     line-height: 1.9 !important;
     text-align: center !important;
 }
+
+/* About Me description width */
+#about h3.section-subheading {
+    max-width: 550px !important;
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 1.8 !important;
+}
+
+/* More breathing room between sections */
+#about {
+    padding-top: 110px !important;
+    padding-bottom: 130px !important;
+}
+
+#services {
+    padding-top: 110px !important;
+    padding-bottom: 130px !important;
+}
+
+#portfolio {
+    padding-top: 110px !important;
+    padding-bottom: 130px !important;
+}
