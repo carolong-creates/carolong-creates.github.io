@@ -1077,3 +1077,16 @@ header .intro-text .intro-heading {
     padding-top: 110px !important;
     padding-bottom: 130px !important;
 }
+
+/* Reduce spacing between About Me, Services, and Portfolio */
+#about,
+#services,
+#portfolio {
+    padding-top: 75px !important;
+    padding-bottom: 75px !important;
+}
+
+/* Reduce space above the Services illustration */
+#services img[src*="handshake-512.png"] {
+    margin-top: 35px !important;
+}
