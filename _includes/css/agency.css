@@ -911,3 +911,14 @@ section#contact {
     font-size: 24px;
     font-weight: bold;
 }
+.portfolio-link {
+    display: block;
+    text-decoration: none !important;
+}
+
+.portfolio-link:hover .portfolio-box {
+    background-color: #34466F;
+    transform: translateY(-4px);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
