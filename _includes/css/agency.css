@@ -1190,3 +1190,15 @@ html,
 body {
     background-color: #EBDDE3 !important;
 }
+
+/* Match the background inside and outside the border */
+html,
+body,
+#about,
+#services,
+#portfolio,
+#contact,
+footer,
+.bg-light-gray {
+    background-color: #EBDDE3 !important;
+}
