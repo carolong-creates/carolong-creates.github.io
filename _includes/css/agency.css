@@ -893,7 +893,7 @@ section,
 #services,
 #portfolio,
 .bg-light-gray {
-    background-color: #F2E6EA !important;
+    background-color: #EBDDE3 !important;
 }
 
 /* Keep contact section navy */
@@ -904,7 +904,7 @@ section#contact {
 /* Portfolio category boxes */
 .portfolio-box {
     background-color: #1F2A44;
-    color: #F2E6EA;
+    color: #EBDDE3;
     padding: 65px 20px;
     margin-bottom: 30px;
     border-radius: 8px;
