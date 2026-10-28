@@ -957,3 +957,9 @@ section .text-muted,
 section .section-heading {
     color: #1F2A44 !important;
 }
+
+/* White outline around Caroline's Portfolio */
+.navbar-default .navbar-brand {
+    -webkit-text-stroke: 1px white;
+    paint-order: stroke fill;
+}
