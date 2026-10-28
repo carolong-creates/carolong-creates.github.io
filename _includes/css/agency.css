@@ -1202,3 +1202,15 @@ footer,
 .bg-light-gray {
     background-color: #EBDDE3 !important;
 }
+
+/* White banner headings */
+header .intro-text .intro-lead-in,
+header .intro-text .intro-heading {
+    color: #FFFFFF !important;
+}
+
+/* Pink portfolio buttons */
+#portfolio a,
+#portfolio .portfolio-link {
+    background-color: #E8A8C6 !important;
+}
