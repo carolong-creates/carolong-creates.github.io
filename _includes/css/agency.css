@@ -963,3 +963,18 @@ section .section-heading {
     -webkit-text-stroke: 1px white;
     paint-order: stroke fill;
 }
+
+/* Portfolio title: navy outline and hover */
+.navbar-default .navbar-brand {
+    color: #E89BB8 !important;
+    -webkit-text-stroke: 1.5px #1F2A44;
+    paint-order: stroke fill;
+    transition: color 0.2s ease;
+}
+
+/* Turn navy when hovered */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #1F2A44 !important;
+    -webkit-text-stroke: 1.5px #1F2A44;
+}
