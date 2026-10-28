@@ -867,7 +867,7 @@ body {
 }
 /* Fix welcome banner image */
 header {
-    background-image: url('{{ site.baseurl }}/img/custom-header.jpg') !important;
+    background-image: url('{{ site.baseurl }}/img/custom-header.jpg?v=2') !important;
     background-size: cover !important;
     background-position: center center !important;
 }
