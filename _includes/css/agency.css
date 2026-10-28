@@ -1214,3 +1214,13 @@ header .intro-text .intro-heading {
 #portfolio .portfolio-link {
     background-color: #E8A8C6 !important;
 }
+
+/* Portfolio button colors */
+#portfolio .portfolio-link {
+    background-color: transparent !important;
+}
+
+#portfolio .portfolio-box {
+    background-color: #E8A8C6 !important;
+    color: #1F2A44 !important;
+}
