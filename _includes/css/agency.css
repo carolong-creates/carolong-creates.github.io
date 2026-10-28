@@ -922,3 +922,10 @@ section#contact {
     transition: 0.2s ease;
     cursor: pointer;
 }
+/* Center text inside portfolio boxes */
+#portfolio .portfolio-box {
+    text-align: center !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
