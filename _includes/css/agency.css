@@ -901,3 +901,13 @@ section,
 section#contact {
     background-color: #1F2A44 !important;
 }
+/* Portfolio category boxes */
+.portfolio-box {
+    background-color: #1F2A44;
+    color: #F2E6EA;
+    padding: 65px 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
