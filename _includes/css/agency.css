@@ -880,3 +880,9 @@ body {
 #about .row {
     margin-bottom: 0 !important;
 }
+/* Final welcome banner background */
+header {
+    background-image: url('/img/pexels-banner.jpg') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+}
